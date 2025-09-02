@@ -38,10 +38,7 @@ return (
 <div>
 <h1> Login to GPT mudhol Website </h1>
 </div>
-{/* Calling to the methods */}
-<div className="messages">
-{successMessage()}
-</div>
+
 <form>
 <fieldset>
 {/* Labels and inputs for form data */}
@@ -56,6 +53,10 @@ Submit
 </button>
 </fieldset>
 </form>
+{/* Calling to the methods */}
+<div className="messages">
+{successMessage()}
+</div>
 </div>
 );
 }
