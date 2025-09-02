@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-function Football(){const shoot=()=>{alert("GreatShot!");
+function Football(){const
+shoot=(a)=>{alert(a);
 }
 return(
-<button onClick={shoot}>Taketheshot from handling!</button>
+<button onClick={()=>shoot("Goal!")}>Take the shot! from passing</button>
 );
 }
 const root=ReactDOM.createRoot(document.getElementById('root'));root.render(<Football/>);
