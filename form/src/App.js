@@ -35,18 +35,19 @@ return (
 };
 return (
 <div className="form">
-<div>
+<div style={{textAlign: "center"}}>
 <h1> Login to GPT mudhol Website </h1>
 </div>
 
 <form>
-<fieldset>
+<fieldset className="fieldset">
 {/* Labels and inputs for form data */}
-<label className="label">Name</label>
+<label className="label">Name</label><br></br>
 <input onChange={handleName} className="input" value={name} type="text" /><br></br>
-<label className="label">Email</label>
+<label className="label">Email:</label><br></br>
 <input onChange={handleEmail} className="input" value={email} type="email" /><br></br>
-<label className="label">Password</label><input onChange={handlePassword} className="input" value={password} type="password"
+<label className="label">Password:</label><br></br>
+<input onChange={handlePassword} className="input" value={password} type="password"
 /><br></br>
 <button onClick={handleSubmit} className="btn" type="submit">
 Submit
