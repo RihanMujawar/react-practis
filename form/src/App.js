@@ -2,7 +2,6 @@ import { useState } from 'react';
 import './App.css';
 export default function Form()
 {
-// States for registration
 const [name, setName] = useState('');
 const [email, setEmail] = useState('');
 const [password, setPassword] = useState('');
@@ -24,7 +23,7 @@ alert("Please enter all the fields");
 setSubmitted(true);
 }
 };
-// Showing success message
+
 const successMessage = () => {
 if(submitted)
 return (
@@ -38,10 +37,8 @@ return (
 <div style={{textAlign: "center"}}>
 <h1> Login to GPT mudhol Website </h1>
 </div>
-
 <form>
 <fieldset className="fieldset">
-{/* Labels and inputs for form data */}
 <label className="label">Name</label><br></br>
 <input onChange={handleName} className="input" value={name} type="text" /><br></br>
 <label className="label">Email:</label><br></br>
@@ -54,7 +51,6 @@ Submit
 </button>
 </fieldset>
 </form>
-{/* Calling to the methods */}
 <div className="messages">
 {successMessage()}
 </div>
