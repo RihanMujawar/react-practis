@@ -1,7 +1,0 @@
-flask
-flask-cors
-face-recognition
-opencv-python
-pymongo
-pillow
-numpy
