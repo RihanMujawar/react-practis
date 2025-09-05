@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 export default function Form()
 {
+
 const [name, setName] = useState('');
 const [email, setEmail] = useState('');
 const [password, setPassword] = useState('');
@@ -32,7 +33,7 @@ return (
 </div>
 );
 };
-return (44oo45
+return (
 <div className="form">
 <div style={{textAlign: "center"}}>
 <h1> Login to GPT mudhol Website </h1>
@@ -46,11 +47,12 @@ return (44oo45
 <label className="label">Password:</label><br></br>
 <input onChange={handlePassword} className="input" value={password} type="password"
 /><br></br>
-<button onClick={handleSubmit} className="btn" type="submit">
-Submit
+<button onClick={handleSubmit} className="btn" type="submit"><p>
+Submit</p>
 </button>
 </fieldset>
 </form>
+
 <div className="messages">
 {successMessage()}
 </div>

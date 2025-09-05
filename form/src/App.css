@@ -1,5 +1,5 @@
 .input {
-    background-color: lightcyan;
+background-color: rgba(79, 255, 255, 0.391);
 width: 50%;
 padding: 12px 20px;
 margin: 10px;
@@ -17,10 +17,17 @@ form{
     text-align: center;
 }
 .fieldset{
-    background-color: rgb(255, 207, 216)  ;
+    background-image: linear-gradient(45deg, rgba(255, 0, 102, 0.547), rgba(255, 255, 67, 0.604));
     border: 2px solid black;
     height: 60%;
     width: 30%;
     margin: auto;
     border-radius: 10px;
+}
+body{
+    background-color: rgba(190, 190, 11, 0.361);
+}
+p{  
+    width: 100px;
+    height: auto;
 }
