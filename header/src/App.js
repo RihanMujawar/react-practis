@@ -35,8 +35,7 @@ seller: 'boAt',
 price: 999
 },
 {
-url: 'https://rukminim1.flixcart.com/image/1408/1408/washing-machine/z/c/d/ifb-digital8-kg-direct-
-drive-digital-8-kg-direct-drive-original-imad2zcwczwuzge4.jpeg?q=90',
+url: 'https://rukminim1.flixcart.com/image/1408/1408/washing-machine/z/c/d/ifb-digital8-kg-direct-drive-digital-8-kg-direct-drive-original-imad2zcwczwuzge4.jpeg?q=90',
 name: 'IFB Washing Machine',
 category: 'Electronics',
 seller: 'Electro',
