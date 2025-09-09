@@ -15,7 +15,8 @@ return(
 <span> {cartitem.name} </span>
 <button onClick={()=>{ 
 const _CART = CART.map((item,index)=>{
-return cartindex ===index? {...item,quantity:item.quantity>0?item.quantity-1:0}:item
+return cartindex ===index? 
+{...item,quantity:item.quantity>0?item.quantity-1:0}:item
 })
 setCART(_CART)
 }}>
